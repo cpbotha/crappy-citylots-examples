@@ -1,0 +1,4 @@
+(executable
+ (name parse_lots_ocaml)
+ (ocamlopt_flags (:standard -O3))
+ (libraries yojson))
